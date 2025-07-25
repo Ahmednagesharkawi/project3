@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=d20ice- height: 500px;width, 20itia height: 500px;l-scale=1.0">
+    <link rel="stylesheet" href="CSS/STYLE.CSS">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light text-capitalize boll fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand navbar-dark px-3" href="#"><img src="IMAGES/10203353-removebg-preview.png"
+                        class="" height="50" width="100"></a><span class="px-3 h2 text-light">Finz</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse px-2 border-start" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-dark">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown border rounded">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="dropdown-title">t</span>rips
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control border-0 me-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn text-light mx-2" type="submit"
+                            style="background-color: rgb(0, 118, 180);">Search</button>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn text-light mx-2" style="background-color: rgb(0, 118, 180);"
+                            data-bs-toggle="modal" data-bs-target="#myModal">login</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content text-capitalize">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header boll text-light">
+                        <h4 class="modal-title">login</h4>
+                        <button type="button" class="btn-close border-0 boll-subtle" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form action="/action_page.php">
+                            <div class="mb-3 mt-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control border-primary mb-2" id="email" name="email">
+                                <p>we'll never share your email with anyone else.</p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="pwd" class="form-label">Password</label>
+                                <input type="password" class="form-control border-primary" id="pwd" name="pswd">
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="mySwitch" value="yes" checked>
+                                <label class="form-check-label" for="mySwitch">Remember me</label>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="container">
+                        <hr>
+                        <div class="row">
+                            <div class="col-10">
+                                <button type="submit" class="btn"
+                                    style="background-color: rgb(0, 118, 180); color:white;">Submit</button>
+                            </div>
+                            <div class="col-2">
+                                <button type="button" class="btn text-light" style="background-color: rgb(0, 118, 180);"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                        <br>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <nav>
+        <div class="icon-teams position-fixed position-absolute d-flex flex-column text-light display-3">
+            <i class="fab fa-facebook-square mb-3 icon-face"></i>
+            <i class="fab fa-whatsapp-square mb-3 icon-what"></i>
+            <i class="fab fa-twitter-square mb-3 icon-twit"></i>
+            <i class="fab fa-linkedin mb-3 icon-linked"></i>
+            <i class="fab fa-instagram-square mb-3 icon-ins"></i>
+        </div>
+    </nav>
+
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide text-center" data-bs-ride="carousel">
+            <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img src="IMAGES/p2.jpg" height="768" class="d-block w-100 h-70 ">
+                    <div class="carousel-caption d-md-block rounded mx-auto text-capitalize">
+                        <h5 class="h1">First slide label</h5>
+                        <p><span class="h4">"Fresh from the Sea — Served with Love!"🐟</span></p>
+                        <button class="btn btn-lg py-1 px-3 text-light text-capitalize "
+                            style="background-color: rgb(0, 118, 180);">show</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="IMAGES/p3.jpg" height="768" class="d-block w-100 h-70 ">
+                    <div class="carousel-caption d-md-block rounded mx-auto">
+                        <h5 class="h1">Second slide label</h5>
+                        <p><span class="h4">"Where Every Bite Tastes Like the Ocean!"🦐 </span></p>
+                        <button class="btn btn-lg py-1 px-3 text-light text-capitalize "
+                            style="background-color: rgb(0, 118, 180);">show</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMAGES/p1.jpg" height="768" class="d-block w-100 h-70 ">
+                    <div class="carousel-caption d-md-block rounded mx-auto">
+                        <h5 class="h1">Third slide label</h5>
+                        <p><span class="h4">"Dive Into Flavor – Seafood at Its Best!"🦑 </span></p>
+                        <button class="btn btn-lg py-1 px-3 text-light text-capitalize "
+                            style="background-color: rgb(0, 118, 180);">show</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMAGES/p4.jpg" height="768" class="d-block w-100 h-70 ">
+                    <div class="carousel-caption d-md-block rounded mx-auto">
+                        <h5 class="h1">four slide label</h5>
+                        <p><span class="h4">"Hooked on Freshness, Loved for Taste!"🦀</span></p>
+                        <button class="btn btn-lg py-1 px-3 text-light text-capitalize "
+                            style="background-color: rgb(0, 118, 180);">show</button>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="p-5 boll text-white text-capitalize rounded-bottom">
+            <h1 class="text-uppercase">biography</h1>
+            <p>I am a passionate and dedicated restaurant owner with a strong commitment to quality, customer
+                satisfaction, and culinary excellence. With years of experience in the food and hospitality industry, I
+                specialize in creating unique dining experiences that combine delicious flavors, fresh ingredients, and
+                outstanding service. I lead my team with vision, creativity, and attention to detail, ensuring that
+                every guest leaves with a memorable experience. My goal is not just to serve food, but to create a
+                welcoming space where people connect, celebrate.</p>
+            <button class="btn btn-lg border-0 p-1 px-3 text-light text-capitalize"
+                style=" background-color: rgb(36, 217, 253);"> Learn more</button>
+        </div>
+        </div>
+        <hr>
+    </main>
+
+    <section>
+        <div class="container-fluid text-capitalize rounded mb-3 p-5 boll text-light text-center shadow-lg">
+            <h1>Popular destinations in Egypt</h1>
+        </div>
+        <!-- //////////////////////////////////////////// -->
+        <div class="accordion accordion-flush shadow" id="accordionFlushExample">
+            <div class="accordion-item text-capitalize">
+                <h2 class="accordion-header shadow " id="flush-headingOne">
+                    <button class="accordion-button collapsed shadow-lg text-uppercase" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                        aria-controls="flush-collapseOne">
+                        <h5>GIZA</h5>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header shadow " id="flush-headingTwo">
+                    <button class="accordion-button collapsed shadow-lg text-uppercase" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                        aria-controls="flush-collapseTwo">
+                        <h5>ALEX</h5>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
+                        this being filled with some actual content.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header shadow " id="flush-headingThree">
+                    <button class="accordion-button collapsed shadow-lg text-uppercase" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                        aria-controls="flush-collapseThree">
+                        <h5>CAIRO</h5>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                        exciting happening here in terms of content, but just filling up the space to make it look, at
+                        least at first glance, a bit more representative of how this would look in a real-world
+                        application.</div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+
+
+    </section>
+
+    <section>
+        <div class="container-fluid rounded p-5 boll text-light text-center shadow">
+            <h1 class="caption-top text-capitalize">translate form arabic to english</h1>
+        </div>
+        <div class="text-capitalize container-fluid border-bottom bxll p-4 shadow">
+            <p class="h3 text-light">wirte and translate <span class="text-black">Press Here</span></p>
+
+            <button type="button" class="btn mb-3 btn-lg bg text-light" data-bs-toggle="modal"
+                data-bs-target="#exampleModal" style="background-color: rgb(0, 118, 180);"><a data-bs-toggle="tooltip"
+                    data-bs-placement="left" title="Copied!">Copy</a></button>
+
+            <textarea class="w-100 p-2 border-0 rounded" placeholder="translate" rows="4"></textarea>
+        </div>
+        <hr>
+        <div class="container-fluid rounded p-5 boll text-light text-center shadow">
+            <h1 class="caption-top text-capitalize">translate form german to english</h1>
+        </div>
+        <div class="text-capitalize container-fluid border-bottom bxll  p-4 shadow">
+            <p class="h3 text-light">wirte and translate <span class="text-black">Press Here</span></p>
+
+            <button type="button" class="btn mb-3 btn-lg bg text-light" data-bs-toggle="modal"
+                data-bs-target="#exampleModal" style="background-color: rgb(0, 118, 180);"><a data-bs-toggle="tooltip"
+                    data-bs-placement="left" title="Copied!">Copy</a></button>
+
+            <textarea class="w-100 p-2 border-0 rounded" placeholder="translate" rows="4"></textarea>
+        </div>
+        <hr>
+        <div class="container-fluid rounded p-5 boll text-light text-center shadow">
+            <h1 class="caption-top text-capitalize">不是 translate form Chinese to english 是不</h1>
+        </div>
+        <div class="text-capitalize container-fluid border-bottom bxll  p-4 shadow">
+            <p class="h3 text-light">wirte and translate <span class="text-black">Press Here</span></p>
+
+            <button type="button" class="btn mb-3 btn-lg bg text-light" data-bs-toggle="modal"
+                data-bs-target="#exampleModal" style="background-color: rgb(0, 118, 180);"><a data-bs-toggle="tooltip"
+                    data-bs-placement="left" title="Copied!">Copy</a></button>
+
+            <textarea class="w-100 p-2 border-0 rounded" placeholder="translate" rows="4"></textarea>
+        </div>
+        <hr>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h5 class="modal-title" id="exampleModalLabel">fish.com</h5><br>
+                        <span>copied</span>
+                        <br><button type="button" class="btn btn-md btn-primary float-end" data-bs-dismiss="modal"
+                            aria-label="Close">ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </section>
+    <!-- cards -->
+    <section>
+        <div class="img-fix p-5"></div>
+        <div class="p-3 boll text-light text-center text-capitalize">
+            <h1>The most delicious seafood</h1>
+        </div>
+        <div class="container col-8 col-lg-12">
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card1 border-0 w-100 mb-5 shadow-lg" style="height: 500px;width: 355px!important;">
+                        <img src="IMAGES/eat7.jpg" class="card-img-top" style="width: 95%;height: 80%;margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title d-inline">Fish Curry</h5>
+                            <a href="#" class="btn float-end btn btn-primary">Order now</a>
+                            <p>500$</p>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- /response -->
+
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card1 border-0 w-100 mb-5 shadow-lg" style="height: 500px;width: 355px!important;">
+                        <img src="IMAGES/eat1.jpg" class="card-img-top" style="width: 95%;height: 80%;margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title d-inline">Grilled Salmon</h5>
+                            <a href="#" class="btn float-end btn btn-primary">Order now</a>
+                            <p>2500$</p>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- /response -->
+
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card1 border-0 w-100 mb-5 shadow-lg" style="height: 500px;width: 355px!important;">
+                        <img src="IMAGES/eat2.jpg" class="card-img-top" style="width: 95%;height: 80%;margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title d-inline">Fish Tacos</h5>
+                            <a href="#" class="btn float-end btn btn-primary">Order now</a>
+                            <p>700$</p>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- /response -->
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card1 border-0 w-100 mb-5 shadow-lg" style="height: 500px;width: 355px!important;">
+                        <img src="IMAGES/eat3.jpg" class="card-img-top" style="width: 95%;height: 80%;margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title d-inline">Tuna Steak</h5>
+                            <a href="#" class="btn float-end btn btn-primary">Order now</a>
+                            <p>200$</p>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- /response -->
+
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card1 border-0 w-100 mb-5 shadow-lg" style="height: 500px;width: 355px!important;">
+                        <img src="IMAGES/eat4.jpg" class="card-img-top" style="width: 95%;height: 80%;margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title d-inline">Fish Pie</h5>
+                            <a href="#" class="btn float-end btn btn-primary">Order now</a>
+                            <p>250$</p>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- /response -->
+
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card1 border-0 w-100 mb-5 shadow-lg" style="height: 500px;width: 355px!important;">
+                        <img src="IMAGES/eat5.jpg" class="card-img-top" style="width: 95%;height: 80%;margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title d-inline">Cod Fillet</h5>
+                            <a href="#" class="btn float-end btn btn-primary">Order now</a>
+                            <p>500$</p>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- /response -->
+            </div><!-- /row -->
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card1 border-0 w-100 mb-5 shadow-lg" style="height: 500px;width: 355px!important;">
+                        <img src="IMAGES/eat6.jpg" class="card-img-top" style="width: 95%;height: 80%;margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title d-inline">Salmon Teriyaki</h5>
+                            <a href="#" class="btn float-end btn btn-primary">Order now</a>
+                            <p>600$</p>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- /response -->
+
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card1 border-0 w-100 mb-5 shadow-lg" style="height: 500px;width: 355px!important;">
+                        <img src="IMAGES/eat8.jpg" class="card-img-top" style="width: 95%;height: 80%;margin: auto;">
+                        <div class="card-body">
+                            <h5 class="card-title d-inline">Fish Chowder</h5>
+                            <a href="#" class="btn float-end btn btn-primary">Order now</a>
+                            <p>900$</p>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- /response -->
+
+            </div><!-- /row -->
+
+        </div><!-- /container -->
+
+
+
+    </section>
+
+    <section>
+        <div class="img-fix p-5 boll"></div>
+        <hr>
+        <div class="p-3 mb-5 boll text-light text-center text-capitalize">
+            <h1>The most famous chefs</h1>
+        </div>
+        <div class="container col-8 col-lg-12">
+            <div class="row">
+
+
+
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card2 mb-5 rounded-4 bg-dark text-white team-3">
+                        <div class="card-img-overlay p-4 text-capitalize">
+                            <div class="card-text">
+                                <h2 class="card-title">Rick Stein</h2>
+                                <p class=""><i class="far fa-clock"></i> october 15,2025</p>
+                            </div><!-- /card-text -->
+                            <div class="text-bottom position-absolute bottom-0 mb-3">
+                                <img src="IMAGES/sebastian-coman-photography-eBmyH7oO5wY-unsplash.jpg"
+                                    class="person rounded-circle">
+                                <h4>eng.ahmed ui - ux</h4>
+                                <p>Last updated 3 mins ago</p>
+                            </div>
+                        </div><!-- /card-img-overlay -->
+                    </div><!-- card -->
+                </div>
+
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card2 mb-5 rounded-4 bg-dark text-white team-1">
+                        <div class="card-img-overlay p-4 text-capitalize">
+                            <div class="card-text">
+                                <h2 class="card-title">Nobu Matsuhisa</h2>
+                                <p class=""><i class="far fa-clock"></i> october 15,2025</p>
+                            </div><!-- /card-text -->
+                            <div class="text-bottom position-absolute bottom-0 mb-3">
+                                <img src="IMAGES/gastro-editorial-uAEla_0RCgU-unsplash.jpg"
+                                    class="person rounded-circle">
+                                <h4>eng.ahmed ui - ux</h4>
+                                <p>Last updated 3 mins ago</p>
+                            </div>
+                        </div><!-- /card-img-overlay -->
+                    </div><!-- card -->
+                </div>
+
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card card2 mb-5 rounded-4 bg-dark text-white team-2">
+                        <div class="card-img-overlay p-4 text-capitalize">
+                            <div class="card-text">
+                                <h2 class="card-title">Eric Ripert </h2>
+                                <p class=""><i class="far fa-clock"></i> october 15,2025</p>
+                            </div><!-- /card-text -->
+                            <div class="text-bottom position-absolute bottom-0 mb-3">
+                                <img src="IMAGES/ronan-kruithof-llcX9pTjhXM-unsplash.jpg" class="person rounded-circle">
+                                <h4>eng.ahmed ui - ux</h4>
+                                <p>Last updated 3 mins ago</p>
+                            </div>
+                        </div><!-- /card-img-overlay -->
+                    </div><!-- card -->
+                </div>
+
+            </div><!-- /row -->
+        </div><!-- /container -->
+        <br><br>
+        <hr>
+
+
+    </section>
+
+    <section>
+        <div class="container text-capitalize">
+            <h1 class="text-center mb-5">egypt cards</h1>
+
+            <div class="card card3 border-0 rounded-3 mb-5 d-flex">
+                <div class="card-img-top img-ita order-1 order-md-2">
+                    <img class="car3-img img-end" src="IMAGES/p1.jpg">
+                </div><!-- /card-img-top -->
+                <div class="card-text text-capitalize p-5 order-2 order-md-1">
+                    <h2>podcast title</h2>
+                    <span><i class="fas fa-clock"></i> may oct,13th2025</span>
+                    <p class="line my-2"></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eius, voluptatibus, debitis
+                        maiores
+                        explicabo minima eos iure deleniti, unde facilis cumque quos quae assumenda. Totam
+                        voluptates
+                        quibusdam inventore omnis tenetur similique sequi vitae perferendis provident quaerat veniam
+                        et
+                        nam dolorum neque quae, quis reiciendis, asperiores consequatur doloremque repudiandae sit
+                        dignissimos!</p><br><br><br>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-eye"></i> 90K </button>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-clock"></i> 50 mins</button>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-play"></i> play</button>
+                </div> <!-- /card-text -->
+            </div><!-- /card3 -->
+
+
+            <div class="card card3 border-0 rounded-3 mb-5 d-flex">
+                <div class="card-img-top img-ita2 order-1">
+                    <img class="car3-img " src="IMAGES/p2.jpg">
+                </div><!-- /card-img-top -->
+                <div class="card-text text-capitalize p-5 order-2">
+                    <h2>podcast title</h2>
+                    <span><i class="fas fa-clock"></i> may oct,13th2025</span>
+                    <p class="line my-2"></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eius, voluptatibus, debitis
+                        maiores
+                        explicabo minima eos iure deleniti, unde facilis cumque quos quae assumenda. Totam
+                        voluptates
+                        quibusdam inventore omnis tenetur similique sequi vitae perferendis provident quaerat veniam
+                        et
+                        nam dolorum neque quae, quis reiciendis, asperiores consequatur doloremque repudiandae sit
+                        dignissimos!</p><br><br><br>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-eye"></i> 90K </button>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-clock"></i> 50 mins</button>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-play"></i> play</button>
+                </div> <!-- /card-text -->
+            </div><!-- /card3 -->
+
+
+            <div class="card card3 border-0 rounded-3 mb-5 d-flex">
+                <div class="card-img-top img-ita order-1 order-md-2">
+                    <img class="car3-img img-end" src="IMAGES/p3.jpg">
+                </div><!-- /card-img-top -->
+                <div class="card-text text-capitalize p-5 order-2 order-md-1">
+                    <h2>podcast title</h2>
+                    <span><i class="fas fa-clock"></i> may oct,13th2025</span>
+                    <p class="line my-2"></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eius, voluptatibus, debitis
+                        maiores
+                        explicabo minima eos iure deleniti, unde facilis cumque quos quae assumenda. Totam
+                        voluptates
+                        quibusdam inventore omnis tenetur similique sequi vitae perferendis provident quaerat veniam
+                        et
+                        nam dolorum neque quae, quis reiciendis, asperiores consequatur doloremque repudiandae sit
+                        dignissimos!</p><br><br><br>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-eye"></i> 90K </button>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-clock"></i> 50 mins</button>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-play"></i> play</button>
+                </div> <!-- /card-text -->
+            </div><!-- /card3 -->
+
+
+            <div class="card card3 border-0 rounded-3 mb-5 d-flex">
+                <div class="card-img-top img-ita2 order-1">
+                    <img class="car3-img " src="IMAGES/p4.jpg">
+                </div><!-- /card-img-top -->
+                <div class="card-text text-capitalize p-5 order-2">
+                    <h2>podcast title</h2>
+                    <span><i class="fas fa-clock"></i> may oct,13th2025</span>
+                    <p class="line my-2"></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eius, voluptatibus, debitis
+                        maiores
+                        explicabo minima eos iure deleniti, unde facilis cumque quos quae assumenda. Totam
+                        voluptates
+                        quibusdam inventore omnis tenetur similique sequi vitae perferendis provident quaerat veniam
+                        et
+                        nam dolorum neque quae, quis reiciendis, asperiores consequatur doloremque repudiandae sit
+                        dignissimos!</p><br><br><br>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-eye"></i> 90K </button>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-clock"></i> 50 mins</button>
+                    <button class="btn btn-outline-info px-3"><i class="fas fa-play"></i> play</button>
+                </div> <!-- /card-text -->
+            </div><!-- /card3 -->
+
+    </section>
+
+
+    <section>
+        <h1 class="text-center mb-5">Egypt</h1>
+        <div class="container col-8 col-lg-12">
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-md-4 col-lg-3">
+                    <div class="card card4 mb-5 p-3 text-capitalize text-center">
+                        <div class="card-title h4">youtube</div>
+                        <div class="card-body"><img class="shadow-box1" width="100" height="100"
+                                src="IMAGES/youtube20.png"></div>
+                        <div class="card-link h5">subscribe</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-md-4 col-lg-3">
+                    <div class="card card4 mb-5 p-3 text-capitalize text-center">
+                        <div class="card-title h4">whatsapp</div>
+                        <div class="card-body"><img class="shadow-box2" width="100" height="100"
+                                src="IMAGES/whatsapp20.png"></div>
+                        <div class="card-link h5">subscribe</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-md-4 col-lg-3">
+                    <div class="card card4 mb-5 p-3 text-capitalize text-center">
+                        <div class="card-title h4">linkedIn</div>
+                        <div class="card-body"><img class="shadow-box3" width="100" height="100"
+                                src="IMAGES/LinkedIn20.png"></div>
+                        <div class="card-link h5">subscribe</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-md-4 col-lg-3">
+                    <div class="card card4 mb-5 p-3 text-capitalize text-center">
+                        <div class="card-title h4">instagram</div>
+                        <div class="card-body"><img class="shadow-box4" width="100" height="100"
+                                src="IMAGES/Instagram20.png"></div>
+                        <div class="card-link h5">subscribe</div>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+        </div><!-- /container -->
+        <br>
+    </section>
+
+
+    <footer>
+
+        <div class="container-fluid boll text-capitalize text-center text-light">
+            <div class="row">
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card-text">
+                        <hr>
+                        <img src="IMAGES/p3.jpg" class="bg-light rounded-circle card5" width="100" height="100">
+                        <span class="h5 p-3">Finz</span>
+                        <hr>
+                        <p>tel : 000-000-000</p>
+                        <p>address: egpyt</p>
+                        <p>fax : 000-000-000</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card-text ">
+                        <hr>
+                        <img src="IMAGES/p3.jpg" class="bg-light rounded-circle card5" width="100" height="100">
+                        <span class="h5 p-3">Finz</span>
+                        <hr>
+                        <p>tel : 000-000-000</p>
+                        <p>address: egpyt</p>
+                        <p>fax : 000-000-000</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-md-4 col-lg-4">
+                    <div class="card-text ">
+                        <hr>
+                        <img src="IMAGES/p3.jpg" class="bg-light rounded-circle card5" width="100" height="100">
+                        <span class="h5 p-3">Finz</span>
+                        <hr>
+                        <p>tel : 000-000-000</p>
+                        <p>address: egpyt</p>
+                        <p>fax : 000-000-000</p>
+                    </div>
+                </div>
+            </div><!-- row -->
+            <!-- ////////////////////////////////////////////////////////////////// -->
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore earum incidunt porro enim corporis aut.
+            </p>
+            <hr><br><br><br>
+
+        </div><!-- /container-fluid  -->
+    </footer>
+
+
+
+
+
+
+    <script src="JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>

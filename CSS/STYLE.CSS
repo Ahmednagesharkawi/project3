@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.boll {
+    background-color: rgb(0, 118, 180);
+}
+
+.bxll {
+
+    background-color: rgb(27, 214, 252);
+}
+
+.ball {
+
+    background-color: rgb(207, 212, 218);
+}
+
+/*////////////////////////////////// nav //////////////////////////// */
+
+.icon-teams {
+    right: 1vh;
+    top: 50vh;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.icon-face {
+    color: rgb(0, 174, 255);
+}
+
+.icon-what {
+    color: rgb(64, 255, 47);
+}
+
+.icon-twit {
+    color: aqua;
+}
+
+.icon-linked {
+    color: rgb(0, 140, 255);
+}
+
+.icon-ins {
+    color: rgb(255, 0, 234);
+}
+
+.icon-face:hover,
+.icon-what:hover,
+.icon-twit:hover,
+.icon-linked:hover,
+.icon-ins:hover {
+    color: white;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+.dropdown-toggle:hover span {
+    color: white;
+    font-size: large;
+}
+
+.navbar {
+    background-color: rgba(0, 118, 180, 0.5);
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 118, 180, 0.5);
+
+}
+
+.img-fix {
+    height: 300px !important;
+    background-image: url(../IMAGES/p3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+.card1::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}
+
+.card1:hover::after {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.card1::before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.card1:hover::before {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+.card2 {
+    height: 500px !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.team-1 {
+    background-image: url(../IMAGES/gastro-editorial-uAEla_0RCgU-unsplash.jpg);
+}
+
+.team-2 {
+    background-image: url(../IMAGES/ronan-kruithof-llcX9pTjhXM-unsplash.jpg);
+}
+
+.team-3 {
+    background-image: url(../IMAGES/sebastian-coman-photography-eBmyH7oO5wY-unsplash.jpg);
+}
+
+.card2:hover {
+    transform: scale(0.8);
+}
+
+.card-img-overlay {
+    background-color: rgba(63, 63, 63, 0.2);
+    transition: 0.5s;
+
+}
+
+.card-img-overlay:hover {
+    background-color: rgba(0, 102, 255, 0.2);
+}
+
+.person {
+    width: 100px;
+    height: 150px;
+    border: 2px solid rgb(210, 210, 210);
+}
+
+
+.card3,
+.card4 {
+    box-shadow: 1px 1px 20px 3px #00a2ff;
+    transition: 1s;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.line {
+    width: 100px !important;
+    height: 5px;
+    border-radius: 50px;
+    background-color: aqua;
+    transition: 1s;
+}
+
+.card-img-top img {
+    width: 100%;
+}
+
+.img-ita {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%);
+}
+
+.img-ita2 {
+    clip-path: polygon(0 0, 100% 0, 84% 100%, 0 100%);
+}
+
+.car3-img {
+    transition: 1s;
+    height: 100% !important;
+    width: 300px !important;
+    background-size: cover !important;
+}
+
+.img-start {
+    display: flex;
+    justify-self: start;
+}
+
+.img-end {
+    display: flex;
+    justify-self: end;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%);
+}
+
+.card3 {
+    height: 500px !important;
+    flex-direction: row !important;
+}
+
+.card3:hover .car3-img {
+    transform: scale(1.5);
+}
+
+.card3:hover .line {
+    width: 200px !important;
+}
+
+.card-text {
+    order: 1;
+}
+
+/* /////////////////////////////////////////////////////// */
+.shadow-box1 {
+    box-shadow: 1px 1px 50px red;
+    border-radius: 25%;
+}
+
+.shadow-box2 {
+    box-shadow: 1px 1px 50px rgb(64, 255, 47);
+    border-radius: 25%;
+}
+
+.shadow-box3 {
+    box-shadow: 1px 1px 50px rgb(0, 140, 255);
+    border-radius: 25%;
+}
+
+.shadow-box4 {
+    box-shadow: 1px 1px 50px rgb(255, 0, 234);
+    border-radius: 25%;
+}
+
+.card5 {
+    box-shadow: 1px 1px 20px 3px #00a2ff;
+}
+
+/* /////////////////////////////////////////////////////// */
+
+
+@media screen and (max-width:576px) {
+
+    .img-ita,
+    .img-ita2 {
+        order: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .card3 {
+        height: 700px !important;
+        order: 1 !important;
+        flex-direction: column !important;
+    }
+
+    .card3 .car3-img {
+        order: 2 !important;
+        height: 100% !important;
+        width: 100% !important;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
